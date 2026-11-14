@@ -50,7 +50,15 @@ root.innerHTML='<div class="toolbar"><button type="button" data-sort="name" clas
 root.querySelectorAll('button[data-sort]').forEach(btn=>btn.addEventListener('click',()=>{sorts[id]=btn.dataset.sort;draw(id,subset,field,defaultSort,topTwenty)}));
 const view=root.querySelector('button[data-view]');if(view)view.addEventListener('click',()=>{expanded[id]=!expanded[id];draw(id,subset,field,defaultSort,topTwenty)});
 }
-for(const [id,division] of [['test-pro-men','Pro Men'],['test-pro-ladies','Pro Ladies'],['test-am-men','Amateur Men'],['test-am-ladies','Amateur Ladies']])draw(id,people.filter(p=>p.division===division),'masters','points',true);
+let mastersStandings=null;
+try{const res=await fetch('masters-standings.json?rev=2',{cache:'no-store'});if(res.ok)mastersStandings=(await res.json()).divisions;}catch(e){}
+for(const [id,division] of [['test-pro-men','Pro Men'],['test-pro-ladies','Pro Ladies'],['test-am-men','Amateur Men'],['test-am-ladies','Amateur Ladies']]){
+const rows=mastersStandings?.[division];
+if(rows){const root=document.getElementById(id);root.innerHTML='<p class="tag">Provisional standings · awaiting Excel verification</p>'+root.innerHTML;
+draw(id,rows.map(r=>({name:r[0],club:'',masters:r[1]})),'masters','points',true);
+root.insertAdjacentHTML('afterbegin','<p class="tag">Provisional standings · awaiting Excel verification</p>');
+}else draw(id,people.filter(p=>p.division===division),'masters','points',true);
+}
 draw('test-hof',people,'hof','name');
 const amateurs=people.filter(p=>p.division.startsWith('Amateur'));
 draw('test-district',amateurs,'district','name');draw('test-state',amateurs,'state','name');
