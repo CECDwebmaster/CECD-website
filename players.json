@@ -1,1 +1,15 @@
-{"testData":true,"season":"2026–2027","columns":["name","club","division","masters","hof","district","state"],"players":[["Alex Adams","Wickham Park","Pro Men",0,15,0,0],["Blair Baker","Vero Beach","Pro Men",3.5,18.5,0,0],["Casey Clark","St. Cloud","Pro Men",6,22,0,0],["Drew Davis","Tropical Haven","Pro Men",9.5,25.5,0,0],["Ellis Evans","Lakes of Melbourne","Pro Men",12,29,0,0],["Frankie Foster","Whispering Creek","Pro Men",15.5,32.5,0,0],["Gray Green","Space Lakes","Pro Men",1,36,0,0],["Harper Harris","Spanish Lakes #1","Pro Men",4.5,39.5,0,0],["Jamie Irwin","Wickham Park","Pro Men",7,43,0,0],["Morgan Jones","Vero Beach","Pro Men",10.5,46.5,0,0],["Alex Davis","Vero Beach","Pro Ladies",2,20,0,0],["Blair Evans","St. Cloud","Pro Ladies",5.5,23.5,0,0],["Casey Foster","Tropical Haven","Pro Ladies",8,27,0,0],["Drew Green","Lakes of Melbourne","Pro Ladies",11.5,30.5,0,0],["Ellis Harris","Whispering Creek","Pro Ladies",14,34,0,0],["Frankie Irwin","Space Lakes","Pro Ladies",0.5,37.5,0,0],["Gray Jones","Spanish Lakes #1","Pro Ladies",3,41,0,0],["Harper Adams","Wickham Park","Pro Ladies",6.5,44.5,0,0],["Jamie Baker","Vero Beach","Pro Ladies",9,48,0,0],["Morgan Clark","St. Cloud","Pro Ladies",12.5,51.5,0,0],["Alex Green","St. Cloud","Amateur Men",4,25,4.5,1.5],["Blair Harris","Tropical Haven","Amateur Men",7.5,28.5,3.5,1.5],["Casey Irwin","Lakes of Melbourne","Amateur Men",10,32,0.5,3],["Drew Jones","Whispering Creek","Amateur Men",13.5,35.5,2,2.5],["Ellis Adams","Space Lakes","Amateur Men",16,39,3.5,0.5],["Frankie Baker","Spanish Lakes #1","Amateur Men",2.5,42.5,5,2],["Gray Clark","Wickham Park","Amateur Men",5,46,2,3.5],["Harper Davis","Vero Beach","Amateur Men",8.5,49.5,1,1.5],["Jamie Evans","St. Cloud","Amateur Men",11,53,2.5,1],["Morgan Foster","Tropical Haven","Amateur Men",14.5,56.5,4,2.5],["Alex Jones","Tropical Haven","Amateur Ladies",6,30,4,2],["Blair Adams","Lakes of Melbourne","Amateur Ladies",9.5,33.5,1,1.5],["Casey Baker","Whispering Creek","Amateur Ladies",12,37,2.5,3],["Drew Clark","Space Lakes","Amateur Ladies",15.5,40.5,4,1],["Ellis Davis","Spanish Lakes #1","Amateur Ladies",1,44,3,2.5],["Frankie Evans","Wickham Park","Amateur Ladies",4.5,47.5,2.5,2],["Gray Foster","Vero Beach","Amateur Ladies",7,51,1.5,2],["Harper Green","St. Cloud","Amateur Ladies",10.5,54.5,3,1.5],["Jamie Harris","Tropical Haven","Amateur Ladies",13,58,4.5,3],["Morgan Irwin","Lakes of Melbourne","Amateur Ladies",16.5,61.5,1.5,1]]}
+{
+  "testData": false,
+  "season": "2026–2027",
+  "columns": [
+    "name",
+    "club",
+    "division",
+    "masters",
+    "hof",
+    "district",
+    "state"
+  ],
+  "players": [],
+  "note": "Fictional demonstration players removed; awaiting verified official CECD records."
+}
