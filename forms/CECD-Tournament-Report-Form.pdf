@@ -6,7 +6,7 @@ endobj
 << /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 792 612] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
 endobj
 4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
@@ -15,81 +15,88 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
 endobj
 6 0 obj
-<< /Length 2152 >>
+<< /Length 2294 >>
 stream
 0.65 w
-0.7 G
-35 747 m 577 747 l S
-35 147 m 577 147 l S
-35 747 m 35 147 l S
-577 747 m 577 147 l S
-35 716 m 577 716 l S
-35 692 m 577 692 l S
-35 668 m 577 668 l S
-35 644 m 577 644 l S
-35 620 m 577 620 l S
-35 596 m 577 596 l S
-35 572 m 577 572 l S
-35 545 m 577 545 l S
-35 502 m 577 502 l S
-35 459 m 577 459 l S
-35 416 m 577 416 l S
-35 373 m 577 373 l S
-35 346 m 577 346 l S
-35 303 m 577 303 l S
-35 260 m 577 260 l S
-35 217 m 577 217 l S
-35 174 m 577 174 l S
-109 572 m 109 373 l S
-175 572 m 175 373 l S
-242 572 m 242 373 l S
-316 572 m 316 373 l S
-367 572 m 367 373 l S
-433 572 m 433 373 l S
-500 572 m 500 373 l S
-559 572 m 559 373 l S
-109 346 m 109 147 l S
-175 346 m 175 147 l S
-242 346 m 242 147 l S
-316 346 m 316 147 l S
-367 346 m 367 147 l S
-433 346 m 433 147 l S
-500 346 m 500 147 l S
-559 346 m 559 147 l S
-BT /F2 15 Tf 218 727 Td (Tournament Report Form) Tj ET
-BT /F2 9 Tf 39 699 Td (Tournament) Tj ET
-BT /F2 9 Tf 39 675 Td (Date) Tj ET
-BT /F2 9 Tf 39 651 Td (Host Club) Tj ET
-BT /F2 9 Tf 39 627 Td (Sponsor\(s\)) Tj ET
-BT /F2 9 Tf 39 603 Td (Teams) Tj ET
-BT /F2 9 Tf 39 579 Td (Director) Tj ET
-BT /F2 8 Tf 38 554 Td (Main) Tj ET
-BT /F2 7 Tf 112 554 Td (First Name) Tj ET
-BT /F2 7 Tf 178 554 Td (Last Name) Tj ET
-BT /F2 7 Tf 245 554 Td (Club) Tj ET
-BT /F2 7 Tf 319 554 Td (FSA #) Tj ET
-BT /F2 7 Tf 370 554 Td (First Name) Tj ET
-BT /F2 7 Tf 436 554 Td (Last Name) Tj ET
-BT /F2 7 Tf 503 554 Td (Club) Tj ET
-BT /F2 7 Tf 562 554 Td (FSA #) Tj ET
-BT /F2 8 Tf 38 355 Td (Consolation) Tj ET
-BT /F2 7 Tf 112 355 Td (First Name) Tj ET
-BT /F2 7 Tf 178 355 Td (Last Name) Tj ET
-BT /F2 7 Tf 245 355 Td (Club) Tj ET
-BT /F2 7 Tf 319 355 Td (FSA #) Tj ET
-BT /F2 7 Tf 370 355 Td (First Name) Tj ET
-BT /F2 7 Tf 436 355 Td (Last Name) Tj ET
-BT /F2 7 Tf 503 355 Td (Club) Tj ET
-BT /F2 7 Tf 562 355 Td (FSA #) Tj ET
-BT /F2 9 Tf 39 518 Td (1st) Tj ET
-BT /F2 9 Tf 39 475 Td (2nd) Tj ET
-BT /F2 9 Tf 39 432 Td (3rd) Tj ET
-BT /F2 9 Tf 39 389 Td (4th) Tj ET
-BT /F2 9 Tf 39 319 Td (1st) Tj ET
-BT /F2 9 Tf 39 276 Td (2nd) Tj ET
-BT /F2 9 Tf 39 233 Td (3rd) Tj ET
-BT /F2 9 Tf 39 190 Td (4th) Tj ET
-BT /F2 10 Tf 141 119 Td (Send results to Mary Agness, at: meap1974@gmail.com) Tj ET
+0.55 G
+36 576 m 756 576 l S
+36 52 m 756 52 l S
+36 576 m 36 52 l S
+756 576 m 756 52 l S
+36 540 m 756 540 l S
+36 516 m 756 516 l S
+36 492 m 756 492 l S
+36 468 m 756 468 l S
+36 444 m 756 444 l S
+36 420 m 756 420 l S
+36 396 m 756 396 l S
+36 368 m 756 368 l S
+36 224 m 756 224 l S
+36 196 m 756 196 l S
+36 332 m 756 332 l S
+36 296 m 756 296 l S
+36 260 m 756 260 l S
+36 160 m 756 160 l S
+36 124 m 756 124 l S
+36 88 m 756 88 l S
+BT /F2 16 Tf 302 551 Td (Tournament Report Form) Tj ET
+BT /F2 9 Tf 42 528 Td (Tournament) Tj ET
+126 540 m 126 516 l S
+BT /F2 9 Tf 42 504 Td (Date) Tj ET
+126 516 m 126 492 l S
+BT /F2 9 Tf 42 480 Td (Host Club) Tj ET
+126 492 m 126 468 l S
+BT /F2 9 Tf 42 456 Td (Sponsor\(s\)) Tj ET
+126 468 m 126 444 l S
+BT /F2 9 Tf 42 432 Td (Teams) Tj ET
+126 444 m 126 420 l S
+BT /F2 9 Tf 42 408 Td (Director) Tj ET
+126 420 m 126 396 l S
+BT /F2 8.5 Tf 40 378 Td (Main) Tj ET
+BT /F2 8 Tf 115 378 Td (First Name) Tj ET
+BT /F2 8 Tf 191 378 Td (Last Name) Tj ET
+BT /F2 8 Tf 267 378 Td (Club) Tj ET
+BT /F2 8 Tf 348 378 Td (FSA #) Tj ET
+BT /F2 8 Tf 399 378 Td (First Name) Tj ET
+BT /F2 8 Tf 475 378 Td (Last Name) Tj ET
+BT /F2 8 Tf 551 378 Td (Club) Tj ET
+BT /F2 8 Tf 632 378 Td (FSA #) Tj ET
+BT /F2 8.5 Tf 40 206 Td (Consolation) Tj ET
+BT /F2 8 Tf 115 206 Td (First Name) Tj ET
+BT /F2 8 Tf 191 206 Td (Last Name) Tj ET
+BT /F2 8 Tf 267 206 Td (Club) Tj ET
+BT /F2 8 Tf 348 206 Td (FSA #) Tj ET
+BT /F2 8 Tf 399 206 Td (First Name) Tj ET
+BT /F2 8 Tf 475 206 Td (Last Name) Tj ET
+BT /F2 8 Tf 551 206 Td (Club) Tj ET
+BT /F2 8 Tf 632 206 Td (FSA #) Tj ET
+111 396 m 111 224 l S
+187 396 m 187 224 l S
+263 396 m 263 224 l S
+344 396 m 344 224 l S
+395 396 m 395 224 l S
+471 396 m 471 224 l S
+547 396 m 547 224 l S
+628 396 m 628 224 l S
+679 396 m 679 224 l S
+111 224 m 111 52 l S
+187 224 m 187 52 l S
+263 224 m 263 52 l S
+344 224 m 344 52 l S
+395 224 m 395 52 l S
+471 224 m 471 52 l S
+547 224 m 547 52 l S
+628 224 m 628 52 l S
+679 224 m 679 52 l S
+BT /F2 9 Tf 42 345 Td (1st) Tj ET
+BT /F2 9 Tf 42 309 Td (2nd) Tj ET
+BT /F2 9 Tf 42 273 Td (3rd) Tj ET
+BT /F2 9 Tf 42 237 Td (4th) Tj ET
+BT /F2 9 Tf 42 173 Td (1st) Tj ET
+BT /F2 9 Tf 42 137 Td (2nd) Tj ET
+BT /F2 9 Tf 42 101 Td (3rd) Tj ET
+BT /F2 9 Tf 42 65 Td (4th) Tj ET
+BT /F2 9 Tf 249 29 Td (Send results to Mary Agness, at: meap1974@gmail.com) Tj ET
 endstream
 endobj
 xref
@@ -104,5 +111,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-2599
+2741
 %%EOF
