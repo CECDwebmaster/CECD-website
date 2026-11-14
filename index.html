@@ -25,14 +25,18 @@ try {const response=await fetch('players.json?rev=1',{cache:'no-store'});if(!res
 catch(e){document.querySelectorAll('.player-data').forEach(el=>el.textContent='Unable to load sample player data.');return;}
 const people=data.players.map(r=>({name:r[0],club:r[1],division:r[2],masters:+r[3],hof:+r[4],district:+r[5],state:+r[6]}));
 const sorts={};
-function draw(id,subset,field,defaultSort){
+const expanded={};
+function draw(id,subset,field,defaultSort,topTwenty=false){
 const root=document.getElementById(id);if(!root)return;
 const sort=sorts[id]||defaultSort;
-const ordered=[...subset].sort((a,b)=>sort==='name'?a.name.localeCompare(b.name):b[field]-a[field]||a.name.localeCompare(b.name));
-root.innerHTML='<div class="toolbar"><button type="button" data-sort="name" class="'+(sort==='name'?'selected':'')+'">Player A–Z</button><button type="button" data-sort="points" class="'+(sort==='points'?'selected':'')+'">Points highest first</button></div><div class="tablewrap"><table><thead><tr><th>Player</th><th>Club</th><th>Points</th></tr></thead><tbody>'+ordered.map(p=>'<tr><td>'+escapeHtml(p.name)+'</td><td>'+escapeHtml(p.club)+'</td><td>'+p[field]+'</td></tr>').join('')+'</tbody></table></div>';
-root.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>{sorts[id]=btn.dataset.sort;draw(id,subset,field,defaultSort)}));
+const ranked=topTwenty?[...subset].filter(p=>p[field]>0).sort((a,b)=>b[field]-a[field]||a.name.localeCompare(b.name)):subset;
+const selected=topTwenty&&!expanded[id]?ranked.slice(0,20):ranked;
+const ordered=[...selected].sort((a,b)=>sort==='name'?a.name.localeCompare(b.name):b[field]-a[field]||a.name.localeCompare(b.name));
+root.innerHTML='<div class="toolbar"><button type="button" data-sort="name" class="'+(sort==='name'?'selected':'')+'">Player A–Z</button><button type="button" data-sort="points" class="'+(sort==='points'?'selected':'')+'">Points highest first</button>'+(topTwenty&&ranked.length>20?'<button type="button" data-view="toggle">'+(expanded[id]?'Show Top 20':'View All Players ('+ranked.length+')')+'</button>':'')+'</div><div class="tablewrap"><table><thead><tr><th>Player</th><th>Club</th><th>Points</th></tr></thead><tbody>'+ordered.map(p=>'<tr><td>'+escapeHtml(p.name)+'</td><td>'+escapeHtml(p.club)+'</td><td>'+p[field]+'</td></tr>').join('')+'</tbody></table></div>';
+root.querySelectorAll('button[data-sort]').forEach(btn=>btn.addEventListener('click',()=>{sorts[id]=btn.dataset.sort;draw(id,subset,field,defaultSort,topTwenty)}));
+const view=root.querySelector('button[data-view]');if(view)view.addEventListener('click',()=>{expanded[id]=!expanded[id];draw(id,subset,field,defaultSort,topTwenty)});
 }
-for(const [id,division] of [['test-pro-men','Pro Men'],['test-pro-ladies','Pro Ladies'],['test-am-men','Amateur Men'],['test-am-ladies','Amateur Ladies']])draw(id,people.filter(p=>p.division===division),'masters','points');
+for(const [id,division] of [['test-pro-men','Pro Men'],['test-pro-ladies','Pro Ladies'],['test-am-men','Amateur Men'],['test-am-ladies','Amateur Ladies']])draw(id,people.filter(p=>p.division===division),'masters','points',true);
 draw('test-hof',people,'hof','name');
 const amateurs=people.filter(p=>p.division.startsWith('Amateur'));
 draw('test-district',amateurs,'district','name');draw('test-state',amateurs,'state','name');
