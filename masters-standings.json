@@ -1,6 +1,6 @@
 {
-  "source": "CECD website screenshots supplied November 14, 2026",
-  "verified": false,
+  "source": "STATS 2026-2027(1).xlsx, snapshot November 14 2026",
+  "verified": true,
   "season": "2026–2027",
   "divisions": {
     "Pro Men": [
@@ -65,16 +65,62 @@
         3
       ],
       [
+        "Lee Lamb",
+        2
+      ],
+      [
         "Ed Fairhurst",
         2
       ],
       [
-        "Lee Lamb",
-        1
-      ],
-      [
         "Doug Lane",
         1
+      ]
+    ],
+    "Pro Ladies": [
+      [
+        "Marie Collette",
+        20
+      ],
+      [
+        "Connie Mallory",
+        11
+      ],
+      [
+        "Carol Wolf",
+        9
+      ],
+      [
+        "Fran Bakker",
+        8
+      ],
+      [
+        "Colleen Jakacky",
+        8
+      ],
+      [
+        "Jane Plumpton",
+        7
+      ],
+      [
+        "Belinda Jones",
+        7
+      ],
+      [
+        "Carla Resh",
+        6
+      ],
+      [
+        "Karen Siler",
+        6
+      ],
+      [
+        "Sheila Winkelspecht",
+        5
+      ],
+      [
+        "Mona Clark",
+        4
       ]
     ],
     "Amateur Men": [
@@ -91,7 +137,7 @@
         9
       ],
       [
-        "David Herrington",
+        "Dave Herrington",
         9
       ],
       [
@@ -135,62 +181,16 @@
         1
       ],
       [
+        "Curt Casto",
+        1
+      ],
+      [
         "Mike Therieau",
         1
       ],
       [
         "Bob Brinckerhoff",
         1
-      ],
-      [
-        "Curt Casto",
-        1
-      ]
-    ],
-    "Pro Ladies": [
-      [
-        "Marie Collette",
-        20
-      ],
-      [
-        "Connie Mallory",
-        11
-      ],
-      [
-        "Carol Wolf",
-        9
-      ],
-      [
-        "Fran Bakker",
-        8
-      ],
-      [
-        "Colleen Jakacky",
-        8
-      ],
-      [
-        "Belinda Jones",
-        7
-      ],
-      [
-        "Jane Plumpton",
-        7
-      ],
-      [
-        "Karen Siler",
-        6
-      ],
-      [
-        "Carla Resh",
-        6
-      ],
-      [
-        "Sheila Winkelspecht",
-        5
-      ],
-      [
-        "Mona Clark",
-        4
       ]
     ],
     "Amateur Ladies": [
