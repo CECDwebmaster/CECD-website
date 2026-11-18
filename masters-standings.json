@@ -6,19 +6,19 @@
     "Pro Men": [
       [
         "Bill Beechum",
-        17
+        17.25
       ],
       [
         "Gregg Myers",
-        13
+        13.5
       ],
       [
         "Joe Villeneuve",
-        10
+        10.5
       ],
       [
         "Kerry Siler",
-        10
+        10.25
       ],
       [
         "Bruce Wolf",
@@ -26,26 +26,26 @@
       ],
       [
         "Bob Hovatter",
-        7
+        7.25
       ],
       [
         "Butch Unger",
         7
       ],
       [
-        "Tom Winkelspecht",
-        6
-      ],
-      [
         "Tom Plumpton",
         6
       ],
       [
-        "John Schmid",
-        5
+        "Tom Winkelspecht",
+        6
       ],
       [
         "George Shaver",
+        5
+      ],
+      [
+        "John Schmid",
         5
       ],
       [
@@ -53,7 +53,7 @@
         4
       ],
       [
-        "Steve Shower",
+        "George Harris",
         3
       ],
       [
@@ -61,54 +61,58 @@
         3
       ],
       [
-        "George Harris",
+        "Steve Shower",
         3
-      ],
-      [
-        "Lee Lamb",
-        2
       ],
       [
         "Ed Fairhurst",
         2
       ],
       [
+        "Lee Lamb",
+        2
+      ],
+      [
         "Doug Lane",
         1
+      ],
+      [
+        "Tom Knoepfel",
+        0.5
       ]
     ],
     "Pro Ladies": [
       [
         "Marie Collette",
-        20
+        20.5
       ],
       [
         "Connie Mallory",
-        11
+        11.25
       ],
       [
         "Carol Wolf",
         9
       ],
       [
+        "Colleen Jakacky",
+        8
+      ],
+      [
         "Fran Bakker",
         8
       ],
       [
-        "Colleen Jakacky",
-        8
+        "Belinda Jones",
+        7.5
       ],
       [
         "Jane Plumpton",
         7
       ],
       [
-        "Belinda Jones",
-        7
-      ],
-      [
         "Carla Resh",
-        6
+        6.25
       ],
       [
         "Karen Siler",
@@ -121,6 +125,10 @@
       [
         "Mona Clark",
         4
+      ],
+      [
+        "Sally Agnello",
+        0.5
       ]
     ],
     "Amateur Men": [
@@ -133,15 +141,15 @@
         10
       ],
       [
-        "Rick Arreola",
-        9
-      ],
-      [
         "Dave Herrington",
         9
       ],
       [
-        "Gordon Arruda",
+        "Rick Arreola",
+        9
+      ],
+      [
+        "Bob Murphy",
         7
       ],
       [
@@ -149,7 +157,7 @@
         7
       ],
       [
-        "Bob Murphy",
+        "Gordon Arruda",
         7
       ],
       [
@@ -165,10 +173,6 @@
         4
       ],
       [
-        "Mike Weissman",
-        3
-      ],
-      [
         "Gary Capko",
         3
       ],
@@ -177,7 +181,11 @@
         3
       ],
       [
-        "Donald Stoneburner",
+        "Mike Weissman",
+        3
+      ],
+      [
+        "Bob Brinckerhoff",
         1
       ],
       [
@@ -185,12 +193,16 @@
         1
       ],
       [
+        "Donald Stoneburner",
+        1
+      ],
+      [
         "Mike Therieau",
         1
       ],
       [
-        "Bob Brinckerhoff",
-        1
+        "Chris Duetsch",
+        0.25
       ]
     ],
     "Amateur Ladies": [
@@ -215,16 +227,20 @@
         4
       ],
       [
-        "Marie Raccio",
+        "Fran Coggeshall",
         2
       ],
       [
-        "Fran Coggeshall",
+        "Marie Raccio",
         2
       ],
       [
         "Linda Gruff",
         1
+      ],
+      [
+        "Gayle Schanck",
+        0.5
       ]
     ]
   }
