@@ -38,7 +38,7 @@ document.querySelectorAll('#nav button').forEach(b=>b.addEventListener('click',(
 document.querySelectorAll('[data-bulletin]').forEach(button=>button.addEventListener('click',()=>{const target=button.dataset.bulletin;const wasOpen=button.getAttribute('aria-expanded')==='true';document.querySelectorAll('[data-bulletin]').forEach(b=>b.setAttribute('aria-expanded',String(!wasOpen&&b===button)));document.querySelectorAll('#bulletin-news,#bulletin-memorial').forEach(panel=>panel.classList.toggle('hidden',wasOpen||panel.id!==target));}));
 let officialResults=[];
 fetch('tournament-results.json').then(response=>{if(!response.ok)throw new Error('HTTP '+response.status);return response.json();}).then(data=>{officialResults=data;const selected=document.getElementById('event')?.value;if(selected)renderTournamentResult(selected);}).catch(error=>{const box=document.getElementById('resultbox');if(box){box.classList.remove('hidden');box.textContent='Tournament results are temporarily unavailable.';}console.error('Tournament results failed to load',error);});
-function renderTournamentResultrenderTournamentResult(value){
+function renderTournamentResult(value){
  const box=document.getElementById('resultbox');box.replaceChildren();
  const e=officialResults.find(x=>String(x[0])===value);box.classList.toggle('hidden',!e);if(!e){const audit=document.getElementById('result-audit-note');if(audit)audit.textContent='Select a tournament to review its documented placements. Points reconciliation is pending.';return;}
  const heading=document.createElement('h3');heading.textContent='Tournament #'+e[0]+' — '+e[1];box.appendChild(heading);
